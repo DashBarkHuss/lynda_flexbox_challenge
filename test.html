@@ -1,0 +1,29 @@
+<div id="container">
+    <div id="item1">
+        <!-- <img alt="Illustration of a young rabbit wearing a jacket, happily eating carrots in a garden." src="peter-rabbit1.jpg"> -->
+    one
+    </div>
+    <div id="item2">two</div>
+    <div id="item3">three</div>
+  </div>
+  <style>
+  body, html{
+  height: 100%;
+}
+#container{
+  display:flex;
+  border: 1px solid red;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 40%;
+  flex-wrap: wrap;
+}
+
+#container >*{
+  border: 1px dashed green;
+  flex: 0 0 100%;
+
+}
+
+
+  </style>
